@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		8D3C21602A309BFA0036DCBA /* MagicIsRealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C215F2A309BFA0036DCBA /* MagicIsRealApp.swift */; };
-		8D3C21622A309BFA0036DCBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C21612A309BFA0036DCBA /* ContentView.swift */; };
+		8D3C21622A309BFA0036DCBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C21612A309BFA0036DCBA /* HomeView.swift */; };
 		8D3C21642A309BFB0036DCBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3C21632A309BFB0036DCBA /* Assets.xcassets */; };
 		8D3C21672A309BFB0036DCBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3C21662A309BFB0036DCBA /* Preview Assets.xcassets */; };
+		8DFDD3282A30A1AE006ED88F /* BodyTracking in Frameworks */ = {isa = PBXBuildFile; productRef = 8DFDD3272A30A1AE006ED88F /* BodyTracking */; };
+		8DFDD32A2A30B134006ED88F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD3292A30B134006ED88F /* Router.swift */; };
+		8DFDD32C2A30B350006ED88F /* ARMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD32B2A30B350006ED88F /* ARMaskView.swift */; };
+		8DFDD32E2A30B37C006ED88F /* BodyARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD32D2A30B37C006ED88F /* BodyARView.swift */; };
+		8DFDD3302A30E2A9006ED88F /* CustonHandTracker2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD32F2A30E2A9006ED88F /* CustonHandTracker2D.swift */; };
+		8DFDD3322A30E931006ED88F /* MagicHandPoseClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD3312A30E931006ED88F /* MagicHandPoseClassifier.mlmodel */; };
+		8DFDD3342A30FB2E006ED88F /* MagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD3332A30FB2E006ED88F /* MagicView.swift */; };
+		8DFDD3362A313490006ED88F /* MagicHandPoseClassifier2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD3352A313490006ED88F /* MagicHandPoseClassifier2.mlmodel */; };
+		8DFDD33A2A314FF9006ED88F /* MyHandPoseClassifier1.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD3392A314FF9006ED88F /* MyHandPoseClassifier1.mlpackage */; };
+		8DFDD33C2A31514C006ED88F /* MyHandPoseClassifier2.mlarchive in Resources */ = {isa = PBXBuildFile; fileRef = 8DFDD33B2A31514C006ED88F /* MyHandPoseClassifier2.mlarchive */; };
+		8DFDD33F2A31EF2B006ED88F /* MagicHandML5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDD33E2A31EF2B006ED88F /* MagicHandML5.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D3C215C2A309BFA0036DCBA /* MagicIsReal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicIsReal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3C215F2A309BFA0036DCBA /* MagicIsRealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicIsRealApp.swift; sourceTree = "<group>"; };
-		8D3C21612A309BFA0036DCBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D3C21612A309BFA0036DCBA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8D3C21632A309BFB0036DCBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D3C21662A309BFB0036DCBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DFDD3292A30B134006ED88F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8DFDD32B2A30B350006ED88F /* ARMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMaskView.swift; sourceTree = "<group>"; };
+		8DFDD32D2A30B37C006ED88F /* BodyARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyARView.swift; sourceTree = "<group>"; };
+		8DFDD32F2A30E2A9006ED88F /* CustonHandTracker2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonHandTracker2D.swift; sourceTree = "<group>"; };
+		8DFDD3312A30E931006ED88F /* MagicHandPoseClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MagicHandPoseClassifier.mlmodel; path = PhotoML/MagicHandPoseClassifier.mlmodel; sourceTree = "<group>"; };
+		8DFDD3332A30FB2E006ED88F /* MagicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicView.swift; sourceTree = "<group>"; };
+		8DFDD3352A313490006ED88F /* MagicHandPoseClassifier2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MagicHandPoseClassifier2.mlmodel; path = PhotoML/MagicHandPoseClassifier2.mlmodel; sourceTree = "<group>"; };
+		8DFDD3392A314FF9006ED88F /* MyHandPoseClassifier1.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = MyHandPoseClassifier1.mlpackage; path = PhotoML/MyHandPoseClassifier1.mlpackage; sourceTree = "<group>"; };
+		8DFDD33B2A31514C006ED88F /* MyHandPoseClassifier2.mlarchive */ = {isa = PBXFileReference; lastKnownFileType = file; name = MyHandPoseClassifier2.mlarchive; path = PhotoML/MyHandPoseClassifier2.mlarchive; sourceTree = "<group>"; };
+		8DFDD33D2A3154D0006ED88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DFDD33E2A31EF2B006ED88F /* MagicHandML5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MagicHandML5.mlmodel; path = PhotoML/MagicHandML5.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFDD3282A30A1AE006ED88F /* BodyTracking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +58,11 @@
 		8D3C21532A309BFA0036DCBA = {
 			isa = PBXGroup;
 			children = (
+				8DFDD33E2A31EF2B006ED88F /* MagicHandML5.mlmodel */,
+				8DFDD3392A314FF9006ED88F /* MyHandPoseClassifier1.mlpackage */,
+				8DFDD33B2A31514C006ED88F /* MyHandPoseClassifier2.mlarchive */,
+				8DFDD3352A313490006ED88F /* MagicHandPoseClassifier2.mlmodel */,
+				8DFDD3312A30E931006ED88F /* MagicHandPoseClassifier.mlmodel */,
 				8D3C215E2A309BFA0036DCBA /* MagicIsReal */,
 				8D3C215D2A309BFA0036DCBA /* Products */,
 			);
@@ -51,10 +79,16 @@
 		8D3C215E2A309BFA0036DCBA /* MagicIsReal */ = {
 			isa = PBXGroup;
 			children = (
+				8DFDD33D2A3154D0006ED88F /* Info.plist */,
 				8D3C215F2A309BFA0036DCBA /* MagicIsRealApp.swift */,
-				8D3C21612A309BFA0036DCBA /* ContentView.swift */,
+				8D3C21612A309BFA0036DCBA /* HomeView.swift */,
 				8D3C21632A309BFB0036DCBA /* Assets.xcassets */,
 				8D3C21652A309BFB0036DCBA /* Preview Content */,
+				8DFDD3292A30B134006ED88F /* Router.swift */,
+				8DFDD3332A30FB2E006ED88F /* MagicView.swift */,
+				8DFDD32B2A30B350006ED88F /* ARMaskView.swift */,
+				8DFDD32D2A30B37C006ED88F /* BodyARView.swift */,
+				8DFDD32F2A30E2A9006ED88F /* CustonHandTracker2D.swift */,
 			);
 			path = MagicIsReal;
 			sourceTree = "<group>";
@@ -83,6 +117,9 @@
 			dependencies = (
 			);
 			name = MagicIsReal;
+			packageProductDependencies = (
+				8DFDD3272A30A1AE006ED88F /* BodyTracking */,
+			);
 			productName = MagicIsReal;
 			productReference = 8D3C215C2A309BFA0036DCBA /* MagicIsReal.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 8D3C21532A309BFA0036DCBA;
+			packageReferences = (
+				8DFDD3262A30A1AE006ED88F /* XCRemoteSwiftPackageReference "BodyTracking" */,
+			);
 			productRefGroup = 8D3C215D2A309BFA0036DCBA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D3C21672A309BFB0036DCBA /* Preview Assets.xcassets in Resources */,
+				8DFDD33C2A31514C006ED88F /* MyHandPoseClassifier2.mlarchive in Resources */,
 				8D3C21642A309BFB0036DCBA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +178,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3C21622A309BFA0036DCBA /* ContentView.swift in Sources */,
+				8DFDD33A2A314FF9006ED88F /* MyHandPoseClassifier1.mlpackage in Sources */,
+				8DFDD32E2A30B37C006ED88F /* BodyARView.swift in Sources */,
+				8D3C21622A309BFA0036DCBA /* HomeView.swift in Sources */,
+				8DFDD33F2A31EF2B006ED88F /* MagicHandML5.mlmodel in Sources */,
+				8DFDD32A2A30B134006ED88F /* Router.swift in Sources */,
+				8DFDD32C2A30B350006ED88F /* ARMaskView.swift in Sources */,
+				8DFDD3302A30E2A9006ED88F /* CustonHandTracker2D.swift in Sources */,
+				8DFDD3322A30E931006ED88F /* MagicHandPoseClassifier.mlmodel in Sources */,
+				8DFDD3362A313490006ED88F /* MagicHandPoseClassifier2.mlmodel in Sources */,
+				8DFDD3342A30FB2E006ED88F /* MagicView.swift in Sources */,
 				8D3C21602A309BFA0036DCBA /* MagicIsRealApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +228,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				COREML_CODEGEN_LANGUAGE = Swift;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -195,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -238,6 +289,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				COREML_CODEGEN_LANGUAGE = Swift;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -249,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -265,16 +317,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				COREML_CODEGEN_SWIFT_GLOBAL_MODULE = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MagicIsReal/Preview Content\"";
 				DEVELOPMENT_TEAM = 79GHQ256TM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagicIsReal/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application uses the camera to demonstrate new Vision technology.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +339,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manev.mikhail.MagicIsReal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,16 +354,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				COREML_CODEGEN_SWIFT_GLOBAL_MODULE = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MagicIsReal/Preview Content\"";
 				DEVELOPMENT_TEAM = 79GHQ256TM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagicIsReal/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application uses the camera to demonstrate new Vision technology.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +376,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manev.mikhail.MagicIsReal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DFDD3262A30A1AE006ED88F /* XCRemoteSwiftPackageReference "BodyTracking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Reality-Dev/BodyTracking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DFDD3272A30A1AE006ED88F /* BodyTracking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DFDD3262A30A1AE006ED88F /* XCRemoteSwiftPackageReference "BodyTracking" */;
+			productName = BodyTracking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D3C21542A309BFA0036DCBA /* Project object */;
 }

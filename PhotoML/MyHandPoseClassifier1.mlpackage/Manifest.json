@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "08130C8F-928B-46C9-BECC-A334A30A210F": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "93C03A53-B8EB-4B81-89D5-ED0DBCD32D83": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "A4636466-A029-4E4B-ADE5-C25D3EE198BD": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "MyHandPoseClassifier1.mlmodel",
+            "path": "com.apple.CoreML/MyHandPoseClassifier1.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "A4636466-A029-4E4B-ADE5-C25D3EE198BD"
+}

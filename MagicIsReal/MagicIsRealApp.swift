@@ -11,7 +11,8 @@ import SwiftUI
 struct MagicIsRealApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+//                .environmentObject(DataModel.shared)
         }
     }
 }
